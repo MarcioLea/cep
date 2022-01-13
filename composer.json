@@ -1,0 +1,23 @@
+{
+    "name": "marcio/cep",
+    "description": "Busca de CEP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Buscar": "src/"
+        },
+        "psr-4": {
+            "Marcio\\Cep\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcio Oliveira",
+            "email": "marciolea@gmail.com"
+        }
+    ],
+    "require": {
+        "PHP": ">=5.6.40"
+    }
+}
